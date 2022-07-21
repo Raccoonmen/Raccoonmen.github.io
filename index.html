@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Welcome to Kokoa Talk</title>
+    </head>
+    <!-- 로그인창 시작-->
+    <body>
+        <!-- 최상단 상태창 만들기  navbar.css-->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No service</span>
+                <!--<i class="fa-solid fa-wifi"></i>-->
+                <i class="fa-solid fa-wifi"></i>
+                <!--To do: Wi-fi-Icon-->
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                    <!-- Battery Icon -->
+                <i class="fa-solid fa-bolt"></i>
+                    <!-- Lightning Icon -->
+            </div>
+        </div>
+
+        
+        <!-- Wlcome헤더, 중앙바트 글이 나오는 부분-->
+        <header class ="welcome-header">
+            <h1 class="welcome-header__title">Welcome to KokoaTalk </h1>
+            <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+        </header>
+       
+
+        <!-- 로그인 폼 부분, input이 들어가는건 form을 사용한다.login.css-->
+        <form action="friends.html" method="get" id="login-form">
+            <input name="username" type="text" placeholder="Email or phone number"/>
+            <input name="password" type="password" placeholder="password"/>
+            <input type="submit" value="Log In"/>
+            <a href="#">Find Kokoa Account or Password</a>
+        </form>
+        <script src="https://kit.fontawesome.com/f405eae568.js" crossorigin="anonymous"></script>
+    </body>
+</html>
