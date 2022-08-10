@@ -11,6 +11,10 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-raw.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
 /* 로그인페이지의 상단 상태창 바*/
 
 
@@ -18,6 +22,9 @@
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 /* 로그인 페이지 */
 
 

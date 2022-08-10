@@ -1,0 +1,26 @@
+
+.settings-setting {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-setting i {
+    opacity: 0.7;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.settings__setting-column:first-child i {
+    opacity: 0.7;
+    right: 5px;
+}
+
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}
+
